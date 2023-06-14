@@ -1,3 +1,44 @@
+.container{
+    display: inline-flex;
+    flex:1 1 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.icon{
+    padding: 0.8rem;
+}
+.searchBox{
+    border:0;
+    flex: 1;
+}
+.searchButton{
+    background-color: rgb(46, 46, 85);
+    color: #fff;
+    border: 0;
+    padding: 0.8rem;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .box{
     background-color: aquamarine;
     border-radius: 5px;
@@ -7,13 +48,25 @@
 .flex-container{
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
     align-items:flex-end;
     gap:10px;
-    flex: 0 1 auto;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+
 }
 .box3{
     background-color: blanchedalmond;
     align-self: center;
     flex: 1 1 auto;
+}
+.box5
+{
+    background-color: red;
+    align-self: start;
+    flex: 1 0 auto;
+}
+.box7
+{
+    background-color: blue;
+    align-self: center;
 }

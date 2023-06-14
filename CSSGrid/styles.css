@@ -1,0 +1,38 @@
+body{
+    display: grid;
+    height: 100vh;
+    grid-template-rows:  auto 1fr auto;
+}
+header{
+    background-color: #555;
+    padding: 2em;
+    text-align: center;
+}
+main{
+    background-color: #dfdfdf;
+    padding: 2em;
+    text-align: center;
+}
+footer{
+    background-color: #666;
+    padding: 2em;
+    text-align: center;
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    /* grid-template-rows: 2fr 2fr; */
+    grid-auto-rows: 100px;
+    gap: 10px;
+    background-color: red;
+}
+.box{
+    background-color: aliceblue;
+    color: black;
+    margin: 10px;
+    padding:10px;
+    border-radius: 10px;
+    font-size: 50px;
+}
