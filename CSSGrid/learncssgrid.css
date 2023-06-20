@@ -1,0 +1,17 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.grid-container{
+    width: 800px;
+    display: grid;
+    /* grid-template-rows: 100px 400px 50px; */
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 5fr 1fr;
+
+}
+.item{
+    background-color: blueviolet;
+    margin:2px;
+    text-align: center;
+}
